@@ -1,0 +1,16 @@
+MODULE
+os.path
+Module os.path is mainly used to obtain properties of file and path.
+It is very efficient when setting file path in different system environment.
+
+ELEMENTS
+os.path.abspath(path)             Returns absolute path
+os.path.basename(path)            Returns file name
+os.path.exists(path)              Returns True if path exists, otherwise return False
+os.path.samefile(path1, path2)    Determines whether paths or files are the same or not
+os.path.split(path)               Separates the path into dirname and basename, returns a tuple
+os.path.getsize(path)             Returns file size, if not exist returns an error
+os.path.isabs(path)               Determines whether path is absolute or not
+os.path.isfile(path)              Determines whether path is a file or not
+os.path.isdir(path)               Determines whether path is a directory or not
+os.path.islink(path)              Determines whether path is a link or not
